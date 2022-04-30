@@ -1,0 +1,30 @@
+{
+  "name": "electron-lessons",
+  "version": "1.0.0",
+  "description": "A sample Electron (JS) project for Medium lessons.",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "electron ./app/index.js",
+    "dev": "nodemon --watch . --exec \"electron .\"",
+    "sass:build": "node-sass app/scss -o app/css",
+    "sass:watch": "node-sass -w app/render/scss -o app/render/css"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+  },
+  "devDependencies": {
+    "electron": "^11.1.1",
+    "node-sass": "^5.0.0"
+  },
+  "dependencies": {
+    "chokidar": "^3.4.3",
+    "drag-drop": "^6.1.0",
+    "fs-extra": "^9.0.1",
+    "open": "^7.3.0"
+  }
+}
