@@ -1,2 +1,2 @@
-# electron-lessons
-A sample Electron (JS) project for Medium lessons.
+# Electron Application
+A sample Electron (JS) project for daily task optimization
